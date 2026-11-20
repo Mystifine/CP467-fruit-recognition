@@ -1,0 +1,4 @@
+data/fruits-360_100x100
+.venv/
+*.npz
+.DS_Store
