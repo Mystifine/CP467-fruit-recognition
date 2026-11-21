@@ -1,0 +1,171 @@
+path,label,variety,group
+Test/Apple Golden 2/53_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Test/Apple Golden 2/82_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/169_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/240_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/r_111_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/r_120_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/r_131_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/r_220_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/r_223_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Training/Apple Golden 2/r_225_100.jpg,apple,Apple Golden 2,Apple Golden 2#test
+Test/Apple 23/r0_83_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r0_25_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r0_42_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r0_77_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r0_78_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r0_132_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r0_217_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r1_5_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r1_65_100.jpg,apple,Apple 23,Apple 23#test
+Training/Apple 23/r1_305_100.jpg,apple,Apple 23,Apple 23#test
+Test/Apple 7/r0_103_100.jpg,apple,Apple 7,Apple 7#test
+Test/Apple 7/r1_11_100.jpg,apple,Apple 7,Apple 7#test
+Test/Apple 7/r1_215_100.jpg,apple,Apple 7,Apple 7#test
+Test/Apple 7/r2_51_100.jpg,apple,Apple 7,Apple 7#test
+Test/Apple 7/r2_63_100.jpg,apple,Apple 7,Apple 7#test
+Training/Apple 7/r0_81_100.jpg,apple,Apple 7,Apple 7#test
+Training/Apple 7/r0_128_100.jpg,apple,Apple 7,Apple 7#test
+Training/Apple 7/r0_196_100.jpg,apple,Apple 7,Apple 7#test
+Training/Apple 7/r1_134_100.jpg,apple,Apple 7,Apple 7#test
+Training/Apple 7/r2_186_100.jpg,apple,Apple 7,Apple 7#test
+Test/Apple Red Delicious 1/178_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Test/Apple Red Delicious 1/305_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Test/Apple Red Delicious 1/r_291_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Training/Apple Red Delicious 1/115_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Training/Apple Red Delicious 1/116_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Training/Apple Red Delicious 1/164_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Training/Apple Red Delicious 1/264_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Training/Apple Red Delicious 1/r_73_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Training/Apple Red Delicious 1/r_198_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Training/Apple Red Delicious 1/r_293_100.jpg,apple,Apple Red Delicious 1,Apple Red Delicious 1#test
+Test/Apple 22/r1_43_100.jpg,apple,Apple 22,Apple 22#test
+Test/Apple 22/r1_79_100.jpg,apple,Apple 22,Apple 22#test
+Test/Apple 22/r2_71_100.jpg,apple,Apple 22,Apple 22#test
+Training/Apple 22/r0_136_100.jpg,apple,Apple 22,Apple 22#test
+Training/Apple 22/r0_269_100.jpg,apple,Apple 22,Apple 22#test
+Training/Apple 22/r1_74_100.jpg,apple,Apple 22,Apple 22#test
+Training/Apple 22/r1_226_100.jpg,apple,Apple 22,Apple 22#test
+Training/Apple 22/r2_9_100.jpg,apple,Apple 22,Apple 22#test
+Training/Apple 22/r2_72_100.jpg,apple,Apple 22,Apple 22#test
+Training/Apple 22/r2_221_100.jpg,apple,Apple 22,Apple 22#test
+Test/Apple Red 2/46_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Test/Apple Red 2/86_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Test/Apple Red 2/96_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Test/Apple Red 2/321_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Training/Apple Red 2/221_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Training/Apple Red 2/282_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Training/Apple Red 2/r_31_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Training/Apple Red 2/r_144_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Training/Apple Red 2/r_268_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Training/Apple Red 2/r_300_100.jpg,apple,Apple Red 2,Apple Red 2#test
+Test/Banana 1/r_15_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_19_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_32_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_40_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_44_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_57_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_73_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_207_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_213_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_235_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_244_100.jpg,banana,Banana 1,Banana 1#test
+Test/Banana 1/r_319_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/45_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/49_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/56_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/92_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/97_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/151_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/205_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/220_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/250_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/253_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/256_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/279_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/290_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/293_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_2_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_22_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_55_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_79_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_89_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_103_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_112_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_115_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_128_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_147_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_161_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_199_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_261_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_264_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_265_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_269_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_278_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_280_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_281_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_284_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_294_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_306_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_308_100.jpg,banana,Banana 1,Banana 1#test
+Training/Banana 1/r_323_100.jpg,banana,Banana 1,Banana 1#test
+Test/Orange 3/r0_23_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r0_87_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r0_171_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r0_219_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r0_271_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r0_283_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r1_79_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r1_207_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r1_223_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r1_295_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r1_303_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r1_307_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_3_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_39_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_51_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_67_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_91_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_111_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_119_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_203_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_219_100.jpg,orange,Orange 3,Orange 3#test
+Test/Orange 3/r2_239_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_20_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_22_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_60_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_65_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_77_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_101_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_116_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_210_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_220_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_254_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_290_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r0_293_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_44_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_60_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_94_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_100_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_101_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_152_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_198_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_206_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_212_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_244_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_288_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r1_302_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_20_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_26_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_32_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_41_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_117_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_145_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_178_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_182_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_184_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_190_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_252_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_261_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_293_100.jpg,orange,Orange 3,Orange 3#test
+Training/Orange 3/r2_294_100.jpg,orange,Orange 3,Orange 3#test
