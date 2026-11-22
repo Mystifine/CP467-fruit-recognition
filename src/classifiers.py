@@ -4,6 +4,25 @@ from sklearn.pipeline import Pipeline;
 from sklearn.preprocessing import StandardScaler, FunctionTransformer;
 from sklearn.compose import ColumnTransformer;
 
+# fraction of fruit pixels in a colour band needed to claim that fruit
+# (starting guesses, tune them on DEV only, see the snippet below)
+THRESHOLDS = {"banana_yellow": 0.5, "orange_orange": 0.5};
+def hsv_rule(red, orange, yellow, green):
+  # the inputs are the fractions of fruit pixels in each hue band
+  # rules are checked in order: first match wins
+  if yellow >= THRESHOLDS["banana_yellow"]:
+    return "banana";
+  if orange >= THRESHOLDS["orange_orange"]:
+    return "orange";
+  return "apple";   # anything else (red, green, mixed) is called an apple
+
+def hsv_predict(hue):
+  # hue is the (N, 4) table: one row per image = [red, orange, yellow, green]
+  labels = [];
+  for row in hue:
+    labels.append(hsv_rule(row[0], row[1], row[2], row[3]));
+  return np.array(labels);
+
 def build_X(data, use_shape):
   # it's expected that the data contains hist and shape.
   # hist is a histogram with 64 bins of color data
