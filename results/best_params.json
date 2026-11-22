@@ -1,0 +1,9 @@
+{
+  "knn_color": {
+    "k": 15
+  },
+  "knn_color_shape": {
+    "k": 15,
+    "shape_weight": 1
+  }
+}
