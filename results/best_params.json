@@ -1,9 +1,9 @@
 {
   "knn_color": {
-    "k": 15
+    "k": 51
   },
   "knn_color_shape": {
-    "k": 15,
-    "shape_weight": 1
+    "k": 31,
+    "shape_weight": 3
   }
 }

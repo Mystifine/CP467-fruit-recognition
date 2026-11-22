@@ -8,13 +8,13 @@ from sklearn.model_selection import cross_val_score, StratifiedGroupKFold;
 from src.classifiers import build_X, make_knn;
 from src.data import SEED, load_features, FIGURES_DIR, RESULTS_DIR;
 
-K_VALUES = [1, 3, 5, 7, 9, 11, 15]; # k values to try (how many neighbours vote)
-SHAPE_WEIGHTS = [0.5, 1, 2, 4, 8]; # how much the 3 shape column contribute / weigh
+K_VALUES = [1, 3, 5, 7, 9, 11, 15, 21, 25, 31, 41, 51, 61, 81]; # k values to try (how many neighbours vote)
+SHAPE_WEIGHTS = [0.01, 0.03, 0.1, 0.3, 1, 3, 10]; # how much the 3 shape column contribute / weigh
 
-def cv_score(model, X, dev, cv):
+def cv_score(model, X, labels, groups, cv):
   # 5 fold cross validation have 5 sets, pick one for training and the rest for validation
   # this is done on dev
-  scores = cross_val_score(model, X, dev["label"], groups=dev["group"], cv=cv, scoring="f1_macro");
+  scores = cross_val_score(model, X, labels, groups=groups, cv=cv, scoring="f1_macro");
   return scores.mean(), scores.std();
 
 def best_row(rows, method):
@@ -28,20 +28,27 @@ def best_row(rows, method):
 def main():
   fake = "--fake" in sys.argv; # this is for fake arg
   dev = load_features("dev", fake=fake); # loads feature could be fake
-  cv = StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=SEED); # select 5 splits, 4 go as training 1 is testing
+
+  # group by variety
+  varieties = [];
+  for g in dev["group"]:
+    varieties.append(g.split("#")[0]);
+
+  # updated this to 4 because orange has 4 dev varieties
+  cv = StratifiedGroupKFold(n_splits=4, shuffle=True, random_state=SEED); # select 4 splits, 3 go as training 1 is testing
   rows = []; # one row per setting [method, k, shape_weight, mean, std];
 
   # first we don't use shape because we want to compare shape vs no shape
   X = build_X(dev, False);
   for k in K_VALUES:
-    mean, std = cv_score(make_knn(k, False), X, dev, cv);
+    mean, std = cv_score(make_knn(k, False), X, dev["label"], varieties, cv);
     rows.append(["knn_color", k, "", mean, std]); # adds to the row
 
   # other method is with shape
   X = build_X(dev, True);
   for k in K_VALUES:
     for w in SHAPE_WEIGHTS:
-      mean, std = cv_score(make_knn(k, True, w), X, dev, cv);
+      mean, std = cv_score(make_knn(k, True, w), X, dev["label"], varieties, cv);
       rows.append(["knn_color_shape", k, w, mean, std]);
 
   best_color = best_row(rows, "knn_color");

@@ -197,7 +197,7 @@ def fake_features(split, n=200):
       shapes.append(np.array(shape[fruit]) + rng.normal(0, 0.06, 3));
       hues.append(np.array(hue[fruit]) + rng.normal(0, 0.05, 4));
       labels.append(fruit);
-      groups.append("fake " + fruit + "#" + str(i // 20));
+      groups.append("fake " + fruit + " " + str(i % 10) + "#0");
       paths.append("fake/" + fruit + "/" + str(i) + ".jpg");
       times.append(0.002);
 

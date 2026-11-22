@@ -2,6 +2,7 @@ import numpy as np;
 from sklearn.neighbors import KNeighborsClassifier;
 from sklearn.pipeline import Pipeline;
 from sklearn.preprocessing import StandardScaler, FunctionTransformer;
+from sklearn.compose import ColumnTransformer;
 
 def build_X(data, use_shape):
   # it's expected that the data contains hist and shape.
@@ -24,9 +25,15 @@ def make_knn(k, use_shape, shape_weight=1.0):
   # we then vote when new datapoint comes in (as a vector) you measure distance to all the points in your data. 
   # example if point has 2 closest to "apple" and 1 "orange" then apple wins and new point is classified as apple
   # the weight matters as there are 64 color items and 3 shape ones
-  # scale is used to balance / normalize / standarize values as hist values can range diff from shape values
-  steps = [("scale", StandardScaler())];
+  # updating scale since color histograms are between 0 and 1 we are going to standardize the shape weights
+
+  steps = [];
   if use_shape:
+    scale_shape = ColumnTransformer([
+      ("hist", "passthrough", list(range(N_HIST))),
+      ("shape", StandardScaler(), [N_HIST, N_HIST + 1, N_HIST + 2]),
+    ]);
+    steps.append(("scale", scale_shape));
     steps.append(("weight", FunctionTransformer(_weight_shape, kw_args={"shape_weight": shape_weight})));
   steps.append(("knn", KNeighborsClassifier(n_neighbors=k)));
   return Pipeline(steps);
