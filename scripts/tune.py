@@ -62,7 +62,7 @@ def main():
     writer = csv.writer(f);
     writer.writerow(["method", "k", "shape_weight", "mean_f1", "std_f1"]);
     for row in rows:
-      writer.writerow([row[0], row[1], row[2], round(row[3],4), round[row[4],4]]);
+      writer.writerow([row[0], row[1], row[2], round(row[3],4), round(row[4],4));
 
   # plot score vs k for each method
   color_scores = [];
